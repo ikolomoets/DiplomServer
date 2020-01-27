@@ -1,2 +1,2 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/securing-rest-apis-with-jwt', { useMongoClient: true });
+mongoose.connect('mongodb://Ivan:C0AYz9WejxNzJjKv@cluster0-shard-00-00-0mjiy.azure.mongodb.net:27017,cluster0-shard-00-01-0mjiy.azure.mongodb.net:27017,cluster0-shard-00-02-0mjiy.azure.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority', { useMongoClient: true });
